@@ -1,7 +1,7 @@
 export function Header() {
   return (
     <header>
-        <h1>Welcome to Our Site</h1>
+        <h2>Welcome to Our Site</h2>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>

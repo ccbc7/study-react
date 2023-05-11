@@ -8,7 +8,17 @@ export default function SampleHTML() {
     <>
       <Header/>
       <main>
-        <Headline title="AAA" />
+        <Headline
+        title="AAA"
+        number={1}
+        array={[1, 2, 3]}
+        obj={{ foo: "foo", bar: "bar" }}
+        boolean={false}
+        // boolean
+        comp={<code>hogehoge</code>} // propにjsxを渡す
+        onClick={() => alert("クリック！")}
+        kid// チルドレン
+        />
         <section>
           <h2>About Us</h2>
           <p>We are a company that values...</p>
