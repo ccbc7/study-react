@@ -20,9 +20,8 @@ export default function SampleHTML() {
         onClick={() => alert("クリック！")}
         kid// チルドレン
         />
+        
         <section>
-          <h2>About Us</h2>
-          <p>We are a company that values...</p>
           <Link href="/BBB">
             <div class='flex justify-center items-center '>
               <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-center">
@@ -31,13 +30,34 @@ export default function SampleHTML() {
             </div>
           </Link>
         </section>
+
         <section>
           <h2>Our Services</h2>
           <p class="font-bold text-center">We offer a wide range of services...</p>
         </section>
         <section>
-          <h2>Contact Us</h2>
-          <p>You can reach us at...</p>
+          <h2>記事１</h2>
+          <p>こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</p>
+          <p>こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</p>
+          <p>こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</p>
+        </section>
+        <section>
+          <h2>記事２</h2>
+          <p>こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</p>
+          <p>こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</p>
+          <p>こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</p>
+        </section>
+        <section>
+          <h2>記事３</h2>
+          <p>こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</p>
+          <p>こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</p>
+          <p>こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</p>
+        </section>
+        <section>
+          <h2>記事４</h2>
+          <p>こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</p>
+          <p>こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</p>
+          <p>こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</p>
         </section>
       </main>
       <Footer/>
